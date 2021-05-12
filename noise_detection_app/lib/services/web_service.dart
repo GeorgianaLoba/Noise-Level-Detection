@@ -3,12 +3,11 @@ import 'dart:typed_data';
 import 'dart:async';
 
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:web_socket_channel/io.dart';
 
 class WebService {
   String message;
 
-  void main() async {
+  main() async {
 
     // connect to the socket server
     final socket = await Socket.connect('192.168.1.3', 5000);

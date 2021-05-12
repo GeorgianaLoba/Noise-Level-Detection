@@ -32,7 +32,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final WebService _webService = WebService();
-  IOWebSocketChannel _channel;
 
   @override
   Widget build(BuildContext context) {
@@ -46,30 +45,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // StreamBuilder(
-            //   builder: (context, snapshot) {
-            //
-            //     if (snapshot.hasError) {
-            //       return Text(snapshot.error.toString());
-            //     }
-            //
-            //     if (snapshot.hasData) {
-            //       return Text(snapshot.data);
-            //     }
-            //
-            //     _channel.sink.add('pls work');
-            //     return CircularProgressIndicator();
-            //   },
-            // ),
           ],
         ),
       ),
     );
-  }
-
-  @override
-  void dispose() {
-    // _channel.sink.close();
-    super.dispose();
   }
 }
