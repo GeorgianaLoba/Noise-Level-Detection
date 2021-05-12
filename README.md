@@ -6,10 +6,7 @@ Our application detects if the room you are in is too noisy or not via a USB Mic
 
 
 ## Demo
-The Demo for our application can be seen here: https://www.youtube.com/watch?v=rwjkof7WGL8
-
-And so also here :
-
+The Demo for our application can be seen here: 
 
 https://user-images.githubusercontent.com/61203639/117950001-67174800-b31b-11eb-8516-6313f2896e7c.mp4
 
